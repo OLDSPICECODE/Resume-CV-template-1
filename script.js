@@ -19,7 +19,7 @@ menuToggler.addEventListener('click', function(){
 
 for(let i = 0; i < navItemLinks.length; i++){
     navItemLinks[i].addEventListener('click', function(){
-
+        sideBar.classList.remove('active');
         const itemLinkText = this.textContent.toLowerCase();
 
         for(let i = 0; i < pages.length; i++){
