@@ -772,7 +772,8 @@ img{
 
 @media screen and (max-width: 455px){
     .clients-row{
-        grid-template-columns: 1fr;
+        grid-template-columns: -1fr;
+        margin-left:-30px
     }
 
     .clients-row img{
